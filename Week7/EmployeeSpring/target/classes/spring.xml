@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="company" class="com.sapient.spring.Company" >
+	<property name="employees">		
+	<array>
+			<bean class="com.sapient.spring.Employee"> 
+			<property name="id" value="1"></property>
+			<property name="name" value="saurav"></property>
+			<property name="city" value="pune"></property>
+			</bean>
+    
+			<bean class="com.sapient.spring.Employee"> 
+			<property name="id" value="2"></property>
+			<property name="name" value="akash"></property>
+			<property name="city" value="mumbai"></property>
+			</bean>
+			
+			<bean class="com.sapient.spring.Employee">
+			<property name="id" value="3"></property> 
+			<property name="name" value="rohit"></property>
+			<property name="city" value="jaipur"></property>
+			</bean>
+				
+    </array>
+    </property>
+
+</bean>
+</beans>
