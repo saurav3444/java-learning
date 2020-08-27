@@ -1,0 +1,1 @@
+insert into history values(1001, 100, 50, '/', 2, sysdate());
