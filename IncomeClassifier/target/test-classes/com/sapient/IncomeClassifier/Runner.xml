@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+  <test name="Test">
+       <parameter name="testbrowser" value="chrome"></parameter>
+    <classes>
+    <class name="com.sapient.IncomeClassifier.TestOutput"/>
+       
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
